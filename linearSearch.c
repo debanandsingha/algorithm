@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-void linearSearch(int arr[], int size);
-void arrayReadWrite(int arr[], int size);
+void linearSearch(int [], int);
+void arrayReadWrite(int [], int);
 
 void main(){
 

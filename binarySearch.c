@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-void binarySearch(int arr[], int size);
-void bubbleSort(int arr[], int size);
-void arrayReadWrite(int arr[], int size);
+void binarySearch(int [], int);
+void bubbleSort(int [], int);
+void arrayReadWrite(int [], int);
 
 void main(){
     int arr[10], size;
