@@ -1,3 +1,4 @@
+//Lab 1
 #include<stdio.h>
 
 void linearSearch(int [], int);
