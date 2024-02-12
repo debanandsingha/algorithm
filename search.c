@@ -13,8 +13,8 @@
 
 #include<stdio.h>
 
-void writeArray(int [], int);
 void readArray(int [], int);
+void printArray(int [], int);
 void linearSearch(int [], int);
 void binarySearch(int [], int);
 void bubbleSort(int [], int);
@@ -27,8 +27,8 @@ void main(){
     printf("Enter size of array: ");
     scanf("%d",&size);
     
-    writeArray(arr, size);
-    readArray(arr,size);
+    readArray(arr, size);
+    printArray(arr,size);
 
     select_again:
     printf("\n\nSelect SEARCHING ALGORITHM: ( [1]: Linear Search\t[2]: Binary Search ): ");
@@ -40,8 +40,8 @@ void main(){
         printf("\nLINEAR SEARCH ALGORITHM...\n");
 
         while(choice != 'n'){
+            printArray(arr, size);
             linearSearch(arr, size);
-
             choose_again:
             printf("\n\nDo you want to search again? (y/n): ");
             scanf("%s",&choice);
@@ -58,7 +58,7 @@ void main(){
 
         while(choice != 'n'){
             bubbleSort(arr, size);
-            readArray(arr,size);
+            printArray(arr,size);
             binarySearch(arr, size);
 
             printf("\n\nDo you want to search again? (y/n): ");
@@ -73,10 +73,7 @@ void main(){
         break;
     
     default:
-        if(select_algo != 1){
-            printf(">> Invalid, enter again!");
-            goto select_again;
-        }else if(select_algo != 2){
+        if(select_algo != 1 || select_algo !=2){
             printf(">> Invalid, enter again!");
             goto select_again;
         }
@@ -85,13 +82,13 @@ void main(){
 }
 
 
-void writeArray(int arr[], int size){
+void readArray(int arr[], int size){
     printf("Enter %d elements: ",size);
     for(int i=0; i<size; i++)
         scanf("%d",&arr[i]);
 }
 
-void readArray(int arr[], int size){
+void printArray(int arr[], int size){
     printf(">> Array Elements:\t");
     for(int i=0; i<size; i++)
         printf("%d\t",arr[i]);
@@ -126,7 +123,7 @@ void binarySearch(int arr[], int size){
     while(lowerBound <= upperBound){
         mid = (lowerBound+upperBound)/2;
         if(key == arr[mid]){
-            printf(">> Yes, the number %d is found at position %d.", key, mid);
+            printf(">> Yes, the number %d is found at position %d.", key, mid+1);
             return;
         }
         if(key < arr[mid]){
