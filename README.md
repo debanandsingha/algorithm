@@ -7,7 +7,7 @@
 <b>Lab 2:</b>
    <ul>
     <li><i>guessTheNumber.c</i></li>
-    <li><i>lsearch.c</i></li>
+    <li><i>search.c</i></li>
   </ul>
   <br/>
 <b>Lab 3:</b>
