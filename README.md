@@ -1,12 +1,12 @@
 <b>Lab 1:</b>
-  binarySearch.c, linearSearch.c
+  <i>binarySearch.c, linearSearch.c</i>
   <br/>
-Lab 2:
+<b>Lab 2:</b>
   guessTheNumber.c, search.c
   <br/>
-Lab 3:
+<b>Lab 3:</b>
   gcd.c, recursiveBinSearch.c, towerOfHanoi.c
   <br/>
-Lab 4:
+<b>Lab 4:</b>
   modifiedBubbleSort.c, mergeSort.c
   
