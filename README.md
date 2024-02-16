@@ -5,11 +5,20 @@
   </ul>
   <br/>
 <b>Lab 2:</b>
-  guessTheNumber.c, search.c
+   <ul>
+    <li><i>guessTheNumber.c</i></li>
+    <li><i>lsearch.c</i></li>
+  </ul>
   <br/>
 <b>Lab 3:</b>
-  gcd.c, recursiveBinSearch.c, towerOfHanoi.c
+   <ul>
+    <li><i>gcd.c</i></li>
+    <li><i>recursiveBinSearch.c</i></li>
+    <li><i>towerOfHanoi.c</i></li>
+  </ul>
   <br/>
 <b>Lab 4:</b>
-  modifiedBubbleSort.c, mergeSort.c
-  
+  <ul>
+    <li>mergeSort.c</li>
+    <li>modifiedBubbleSort.c</li>
+  </ul>
