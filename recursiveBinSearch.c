@@ -8,7 +8,7 @@ void swap(int *, int*);
 
 void main(){
     int arr[10], size, lb, ub, key, loc;
-    printf("Enetr size of array: ");
+    printf("Enter size of array: ");
     scanf("%d",&size);
 
     readArray(arr,size);
