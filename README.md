@@ -1,4 +1,4 @@
-Lab 1:
+<b>Lab 1:</b>
   binarySearch.c, linearSearch.c
   <br/>
 Lab 2:
