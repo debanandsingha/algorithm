@@ -8,7 +8,7 @@ void swap(int *, int*);
 
 void main(){
     int arr[10], size, lb, ub, key, loc;
-    printf("Enetr size of array: ");
+    printf("Enter size of array: ");
     scanf("%d",&size);
 
     readArray(arr,size);
@@ -22,7 +22,11 @@ void main(){
     scanf("%d",&key);
 
     loc=rBinSearch(arr, 0, size, key);
-    printf("Element %d is found at position %d.", key, loc+1);
+
+    if(key == arr[loc])
+        printf("Element %d is found at position %d.", key, loc+1);
+    else
+        printf("Element %d is not found in the array.", key);
     
 }
 
