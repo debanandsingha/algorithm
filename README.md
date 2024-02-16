@@ -1,5 +1,8 @@
 <b>Lab 1:</b>
-  <i>binarySearch.c, linearSearch.c</i>
+  <ul>
+    <li><i>binarySearch.c</i></li>
+    <li><i>linearSearch.c</i></li>
+  </ul>
   <br/>
 <b>Lab 2:</b>
   guessTheNumber.c, search.c
