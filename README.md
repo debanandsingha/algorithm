@@ -22,3 +22,7 @@
     <li>mergeSort.c</li>
     <li>modifiedBubbleSort.c</li>
   </ul>
+  <b>Lab 5: (Saturday)</b>
+  <ul>
+    <li>quickSort.c</li>
+  </ul>
