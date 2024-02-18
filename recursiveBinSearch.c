@@ -21,7 +21,7 @@ void main(){
     printf("Enter key to search: ");
     scanf("%d",&key);
 
-    loc=rBinSearch(arr, 0, size, key);
+    loc=rBinSearch(arr, 0, size-1, key);
 
     if(key == arr[loc])
         printf("Element %d is found at position %d.", key, loc+1);
