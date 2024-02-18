@@ -36,7 +36,7 @@ void readArray(int arr[], int size){
         scanf("%d",&arr[i]);
 }
 void printArray(int arr[], int size){
-    printf("Array elements: ",size);
+    printf("Array elements: ");
     for(int i=0; i<size; i++)
         printf("%d\t",arr[i]);
 
