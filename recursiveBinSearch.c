@@ -21,7 +21,7 @@ void main(){
     printf("Enter key to search: ");
     scanf("%d",&key);
 
-    loc=rBinSearch(arr, 0, size, key);
+    loc=rBinSearch(arr, 0, size-1, key);
 
     if(key == arr[loc])
         printf("Element %d is found at position %d.", key, loc+1);
@@ -36,7 +36,7 @@ void readArray(int arr[], int size){
         scanf("%d",&arr[i]);
 }
 void printArray(int arr[], int size){
-    printf("Array elements: ",size);
+    printf("Array elements: ");
     for(int i=0; i<size; i++)
         printf("%d\t",arr[i]);
 
