@@ -7,7 +7,7 @@ void swap(int *, int *);
 void merge2SortedList(int [], int [], int [], int, int);
 
 void main(){
-    int A[10], B[10], C[10], n1, n2;
+    int A[10], B[10], C[20], n1, n2;
     
     printf("Enter size of the array A: ");
     scanf("%d",&n1);
