@@ -35,12 +35,12 @@ void printArray(int arr[], int size){
 
 void bubbleSort(int arr[], int size){
     int i, j, flag=1;
-    for(i=0; i<size && flag==1; i++){
+    for(i=0; i<size-1 && flag==1; i++){
         flag=0;
-        for(j=i+1; j<size; j++){
-            if(arr[i]>arr[j]){
+        for(j=0; j<size-i-1; j++){
+            if(arr[j]>arr[j+1]){
+                swap(&arr[j], &arr[j+1]);
                 flag=1;
-                swap(&arr[i], &arr[j]);
             }
         }
     }
