@@ -23,12 +23,17 @@ void main(){
 }
 
 void heapSort(int arr[], int size){
-    int j=size-1;
-    if(size>0){
-        buildMaxHeap(arr,size);
-        swap(&arr[0], &arr[j]);
-        j--;
-        heapSort(arr, size-1);
+    // int j=size-1;
+    // if(size>0){
+    //     buildMaxHeap(arr,size);
+    //     swap(&arr[0], &arr[j]);
+    //     j--;
+    //     heapSort(arr, size-1);
+    // }
+    buildMaxHeap(arr,size);
+    for(int i=size-1; i>0; i--){
+        swap(&arr[0], &arr[i]);
+        heapify(arr,0,i);
     }
 }
 
