@@ -1,0 +1,25 @@
+Searching Alorithm
+1. Linear Search    Done
+2. Binary Search (Iterative + Recursive)    Done
+
+Sorting Algorithm
+1. Bubble Sort (modified)   Done
+2. Insertion Sort   Done
+3. Selection Sort   Done
+
+Divide & conqurer
+4. Merge Sort   Done
+5. Quick Sort (1st as pivot | last as pivot) Done
+6. Heap Sort    Done
+
+TowerofHanoi(n, s, a, d) Done
+
+Dynamic Programming
+1. Program to generate Fibonacci Number
+
+Greedy Algorithm
+1. Prim's Algorithm
+2. Kruskal's Algorithm
+
+Backtracking Algorithm
+1. N-Queen Problem

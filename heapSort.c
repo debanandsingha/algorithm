@@ -31,8 +31,8 @@ void heapSort(int arr[], int size){
     //     heapSort(arr, size-1);
     // }
     buildMaxHeap(arr,size);
-    for(int i=size-1; i>0; i--){
-        swap(&arr[0], &arr[i]);
+    for(int i=size-1; i>=0; i--){
+        swap(&arr[i], &arr[0]);
         heapify(arr,0,i);
     }
 }

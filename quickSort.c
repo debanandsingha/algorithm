@@ -42,7 +42,7 @@ int partition(int arr[], int lb, int ub){
 
     int pivot, i, j;
     pivot=arr[lb];
-    i=lb;
+    i=lb+1;
     j=ub;
 
     while (i<j){
